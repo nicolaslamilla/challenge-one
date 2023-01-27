@@ -1,0 +1,65 @@
+body {
+    background: #00005F;
+}
+
+h1, h2, label, p {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#icon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+    text-align: center;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+    resize: none;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  a:visited {
+      color: white;
+  }
+
+  a:hover {
+      color: rgb(145, 83, 182);
+  }
+
+  ::placeholder {
+      color: black;
+  }
+
+  .botones {
+    border-radius: 10px;
+    margin: 5px;
+    background-color: white;
+    color: #00005F;
+    font-size: 20px;
+  }
+
+  .titulos {
+    font-size: 25px;
+  }

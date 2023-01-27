@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+</head>
+<body>
+    <img src="imagenwebp.webp" width="400" id="icon" >
+    <h1>Encriptador</h1>
+    <h2>Encriptador y desencriptador de texto - challenge ORACLE ONE</h2>
+        <form onsubmit="return false">
+            <label class="titulos">Ingrese un texto</label><br>
+            <textarea type="text" name="mensaje" id="mensaje" placeholder="No incluir números, ni caracteres especiales"></textarea><br>
+            <button id="encriptar" class="botones">Encriptar</button>
+            <button id="desencriptar" class="botones">Desencriptar</button><br><br>
+        </form>
+        <form onsubmit="return false">
+        <label class="titulos">Resultado</label><br>
+        <textarea id="texto"></textarea><br>
+        <button id="copiar" class="botones">Copiar texto encriptado</button>
+        </form>
+        <footer>
+            <p>Realizado por <a href="https://github.com/nicolaslamilla">Nicolas Lamilla</a></p>
+        </footer>
+    <script src="app.js"></script>
+</body>
+</html>
